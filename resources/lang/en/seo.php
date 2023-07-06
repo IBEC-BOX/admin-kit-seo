@@ -1,14 +1,9 @@
 <?php
 
 return [
-    'resource' => [
-        'label' => 'SEO',
-        'plural_label' => 'SEO',
+    'group_name' => 'SEO Settings',
 
-        'id' => 'ID',
-        'title' => 'Title',
-
-        'created_at' => 'Создан',
-        'updated_at' => 'Обновлен',
-    ],
+    'title' => 'Title',
+    'description' => 'Description',
+    'keywords' => 'Keywords',
 ];

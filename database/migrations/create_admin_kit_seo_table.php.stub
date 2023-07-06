@@ -10,10 +10,11 @@ return new class extends Migration
     {
         Schema::create('admin_kit_seo', function (Blueprint $table) {
             $table->id();
-
-            // add fields
-            $table->jsonb('title')->default('{}');
-
+            $table->unsignedBigInteger('seoable_id');
+            $table->string('seoable_type');
+            $table->string('title', 70)->nullable();
+            $table->string('description', 300)->nullable();
+            $table->string('keywords', 255)->nullable();
             $table->timestamps();
         });
     }
