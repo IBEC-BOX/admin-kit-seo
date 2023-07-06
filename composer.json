@@ -1,17 +1,17 @@
 {
-    "name": ":packagist_name/:package_slug",
-    "description": ":package_description",
+    "name": "ibecsystems/admin-kit-seo",
+    "description": "SEO package for Admin Kit",
     "keywords": [
-        ":github_name",
+        "ibec-box",
         "laravel",
-        ":package_slug"
+        "admin-kit-seo"
     ],
-    "homepage": "https://github.com/:github_name/:package_slug",
+    "homepage": "https://github.com/ibec-box/admin-kit-seo",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Anastas Mironov",
+            "email": "ast@l80.ru",
             "role": "Developer"
         }
     ],
@@ -41,13 +41,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "AdminKit\\SEO\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "AdminKit\\SEO\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,11 +66,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
-            }
+                "AdminKit\\SEO\\SEOServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
