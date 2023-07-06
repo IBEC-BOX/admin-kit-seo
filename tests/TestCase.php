@@ -2,10 +2,10 @@
 
 namespace AdminKit\SEO\Tests;
 
+use AdminKit\SEO\SEOServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AdminKit\SEO\SEOServiceProvider;
 
 class TestCase extends Orchestra
 {
