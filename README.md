@@ -22,31 +22,37 @@ php artisan vendor:publish --tag="admin-kit-seo-migrations"
 php artisan migrate
 ```
 
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="admin-kit-seo-config"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="admin-kit-seo-views"
-```
-
 ## Usage
 
+The Eloquent Model you're editing uses the `HasSEO` trait:
 ```php
-$sEO = new AdminKit\SEO();
-echo $sEO->echoPhrase('Hello, AdminKit!');
+use AdminKit\SEO\Traits\HasSEO;
+
+class Post extends AbstractModel
+{
+    use HasSEO;
+}
 ```
+
+And you can use `SEOSection` to Filament Resource or other forms:
+```php
+use Filament\Resources\Form;
+use AdminKit\SEO\Forms\Components\SEOSection;
+
+class ArticleResource extends Resource
+{
+    // ...
+    public static function form(Form $form): Form
+    {
+        return $form->schema([
+            // Your other fields ...
+            SEOSection::make(),
+        ]);
+    }
+    // ...
+}
+```
+
 
 ## Testing
 
