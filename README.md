@@ -34,10 +34,11 @@ class Post extends AbstractModel
 }
 ```
 
-And you can use `SEOSection` to Filament Resource or other forms:
+And you can use `SEOComponent` to Filament Resource or other forms:
+
 ```php
 use Filament\Resources\Form;
-use AdminKit\SEO\Forms\Components\SEOSection;
+use AdminKit\SEO\Forms\Components\SEOComponent;
 
 class ArticleResource extends Resource
 {
@@ -46,7 +47,7 @@ class ArticleResource extends Resource
     {
         return $form->schema([
             // Your other fields ...
-            SEOSection::make(),
+            SEOComponent::make(),
         ]);
     }
     // ...
