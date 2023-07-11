@@ -15,21 +15,21 @@ class SEOComponent
         return Grid::make(1)
             ->relationship('seo')
             ->schema([
-                TranslatableTabs::make(fn($locale) => Tabs\Tab::make($locale)
+                TranslatableTabs::make(fn ($locale) => Tabs\Tab::make($locale)
                     ->schema([
                         TextInput::make("title.$locale")
-                            ->label('SEO ' . __('admin-kit-seo::seo.title'))
+                            ->label('SEO '.__('admin-kit-seo::seo.title'))
                             ->maxLength(70)
                             ->columnSpan(2),
 
                         Textarea::make("description.$locale")
-                            ->label('SEO ' . __('admin-kit-seo::seo.description'))
+                            ->label('SEO '.__('admin-kit-seo::seo.description'))
                             ->maxLength(300)
                             ->rows(3)
                             ->columnSpan(2),
 
                         Textarea::make("keywords.$locale")
-                            ->label('SEO ' . __('admin-kit-seo::seo.keywords'))
+                            ->label('SEO '.__('admin-kit-seo::seo.keywords'))
                             ->maxLength(255)
                             ->rows(3)
                             ->columnSpan(2),
