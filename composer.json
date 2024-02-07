@@ -22,7 +22,6 @@
         "spatie/laravel-translatable": "^6.5"
     },
     "require-dev": {
-        "filament/upgrade": "^3.2",
         "laravel/pint": "^1.0",
         "nunomaduro/collision": "^7.9",
         "nunomaduro/larastan": "^2.0.1",
