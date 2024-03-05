@@ -2,14 +2,14 @@
 
 namespace AdminKit\SEO\Forms\Components;
 
-use Illuminate\Support\Collection;
-use Filament\Forms\Components\Section;
 use AdminKit\Core\Forms\Components\TranslatableTabs;
 use Filament\Forms\Components\Grid;
+use Filament\Forms\Components\Section;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Tabs;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Illuminate\Support\Collection;
 
 class SEOComponent
 {

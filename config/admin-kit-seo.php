@@ -2,5 +2,5 @@
 
 // config for AdminKit/SEO
 return [
-    'og_tags' => true
+    'og_tags' => true,
 ];
