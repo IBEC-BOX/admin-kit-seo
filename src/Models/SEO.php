@@ -2,12 +2,15 @@
 
 namespace AdminKit\SEO\Models;
 
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 use AdminKit\Core\Abstracts\Models\AbstractModel;
 use Spatie\Translatable\HasTranslations;
 
-class SEO extends AbstractModel
+class SEO extends AbstractModel implements HasMedia
 {
     use HasTranslations;
+    use InteractsWithMedia;
 
     protected $table = 'admin_kit_seo';
 
@@ -15,12 +18,22 @@ class SEO extends AbstractModel
         'title',
         'description',
         'keywords',
+
+        'og_url',
+        'og_title',
+        'og_description',
+        'og_image',
     ];
 
     protected $translatable = [
         'title',
         'description',
         'keywords',
+
+        'og_url',
+        'og_title',
+        'og_description',
+        'og_image',
     ];
 
     public function seoable()

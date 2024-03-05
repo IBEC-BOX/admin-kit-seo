@@ -18,6 +18,9 @@ class SEOServiceProvider extends PackageServiceProvider
             ->name('admin-kit-seo')
             ->hasConfigFile()
             ->hasTranslations()
-            ->hasMigration('create_admin_kit_seo_table');
+            ->hasMigrations([
+                'create_admin_kit_seo_table',
+                'add_og_columns_to_admin_kit_seo_table',
+            ]);
     }
 }

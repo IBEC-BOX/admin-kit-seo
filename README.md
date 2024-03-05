@@ -22,6 +22,21 @@ php artisan vendor:publish --tag="admin-kit-seo-migrations"
 php artisan migrate
 ```
 
+You can publish the config file with:
+
+```bash
+php artisan vendor:publish --tag="admin-kit-seo-config"
+```
+
+This is the contents of the published config file:
+
+```php
+return [
+    // Set it to false if your project does not need OG tags.
+    'og_tags' => true
+];
+```
+
 ## Usage
 
 The Eloquent Model you're editing uses the `HasSEO` trait:
