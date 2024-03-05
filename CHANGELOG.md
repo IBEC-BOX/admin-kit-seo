@@ -2,6 +2,10 @@
 
 All notable changes to `admin-kit-seo` will be documented in this file.
 
+## v3.0.1 - 2024-03-05
+
+Add OG tags
+
 ## v3.0.0 - 2024-02-12
 
 Filament v3 support!
