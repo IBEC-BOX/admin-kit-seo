@@ -2,9 +2,9 @@
 
 namespace AdminKit\SEO;
 
+use AdminKit\SEO\UI\Filament\Resources\PageSEOResource;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
-use AdminKit\SEO\UI\Filament\Resources\PageSEOResource;
 
 class FilamentPlugin implements Plugin
 {

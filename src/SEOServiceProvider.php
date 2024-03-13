@@ -2,8 +2,8 @@
 
 namespace AdminKit\SEO;
 
-use Spatie\LaravelPackageTools\Package;
 use AdminKit\SEO\Providers\RouteServiceProvider;
+use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class SEOServiceProvider extends PackageServiceProvider

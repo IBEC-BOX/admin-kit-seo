@@ -2,9 +2,9 @@
 
 namespace AdminKit\SEO\UI\Filament\Resources\PageSEOResource\Pages;
 
+use AdminKit\SEO\UI\Filament\Resources\PageSEOResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
-use AdminKit\SEO\UI\Filament\Resources\PageSEOResource;
 
 class ListPageSEO extends ListRecords
 {
