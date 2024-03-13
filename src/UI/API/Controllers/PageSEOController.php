@@ -26,9 +26,6 @@ class PageSEOController extends Controller
      * <meta name="twitter:description" content="{{ og.description }}">
      * <meta name="twitter:image" content="{{ og.image }}">
      * ```
-     *
-     * @param string $name
-     * @return PageSEOResource
      */
     public function show(string $name): PageSEOResource
     {

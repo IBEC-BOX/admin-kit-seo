@@ -2,9 +2,9 @@
 
 namespace AdminKit\SEO\UI\Filament\Resources\PageSEOResource\Pages;
 
+use AdminKit\SEO\UI\Filament\Resources\PageSEOResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
-use AdminKit\SEO\UI\Filament\Resources\PageSEOResource;
 
 class EditPageSEO extends EditRecord
 {
