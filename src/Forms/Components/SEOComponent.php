@@ -64,7 +64,9 @@ class SEOComponent
                                             ->imageEditor()
                                             ->imageCropAspectRatio('16:9')
                                             ->imageEditorAspectRatios(['1:1', '4:3', '16:9'])
-                                            ->columnSpan(2),
+                                            ->columnSpan(2)
+                                            ->optimize('webp')
+                                            ->resize(30),
                                     ]),
                                 ])
                             )
