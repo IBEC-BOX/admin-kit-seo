@@ -23,7 +23,8 @@ class PageSEOResource extends Resource
             ->schema([
                 TextInput::make('name')
                     ->label(__('admin-kit-seo::seo.resource.page_name'))
-                    ->required(),
+                    ->required()
+                    ->placeholder('Например: home или companies'),
                 SEOComponent::make(),
             ]);
     }
