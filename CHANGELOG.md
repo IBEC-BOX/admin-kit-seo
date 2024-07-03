@@ -2,6 +2,15 @@
 
 All notable changes to `admin-kit-seo` will be documented in this file.
 
+## v3.2.2 - 2024-07-03
+
+### What's Changed
+
+* chore(deps): bump dependabot/fetch-metadata from 1.6.0 to 2.1.0 by @dependabot in https://github.com/IBEC-BOX/admin-kit-seo/pull/7
+* chore(deps): bump ramsey/composer-install from 2 to 3 by @dependabot in https://github.com/IBEC-BOX/admin-kit-seo/pull/9
+
+**Full Changelog**: https://github.com/IBEC-BOX/admin-kit-seo/compare/v3.2.1...v3.2.2
+
 ## v3.2.1 - 2024-07-03
 
 ### What's Changed
