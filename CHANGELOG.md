@@ -2,6 +2,18 @@
 
 All notable changes to `admin-kit-seo` will be documented in this file.
 
+## v3.2.1 - 2024-07-03
+
+### What's Changed
+
+* Fix/translation tabs naming by @ast21 in https://github.com/IBEC-BOX/admin-kit-seo/pull/6
+
+### New Contributors
+
+* @ast21 made their first contribution in https://github.com/IBEC-BOX/admin-kit-seo/pull/6
+
+**Full Changelog**: https://github.com/IBEC-BOX/admin-kit-seo/compare/v3.2.0...v3.2.1
+
 ## v3.0.1 - 2024-03-05
 
 Add OG tags
