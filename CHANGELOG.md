@@ -2,6 +2,15 @@
 
 All notable changes to `admin-kit-seo` will be documented in this file.
 
+## v3.3.0 - 2024-07-05
+
+### What's Changed
+
+* Feat/upgrade composer json file by @ast21 in https://github.com/IBEC-BOX/admin-kit-seo/pull/10
+* feat: support laravel 11 by @ast21 in https://github.com/IBEC-BOX/admin-kit-seo/pull/11
+
+**Full Changelog**: https://github.com/IBEC-BOX/admin-kit-seo/compare/v3.2.2...v3.3.0
+
 ## v3.2.2 - 2024-07-03
 
 ### What's Changed
