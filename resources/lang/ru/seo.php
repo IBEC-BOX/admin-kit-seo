@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'group_name' => 'Настройки SEO',
+    'seo_settings' => 'SEO Настройки',
+    'og_settings' => 'Open Graph Настройки',
 
     'title' => 'Заголовок',
     'description' => 'Описание',
