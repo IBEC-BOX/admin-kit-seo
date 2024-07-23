@@ -3,6 +3,7 @@
 namespace AdminKit\SEO\Models;
 
 use AdminKit\Core\Abstracts\Models\AbstractModel;
+use AdminKit\SEO\Database\Factories\SEOFactory;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\Translatable\HasTranslations;
@@ -39,5 +40,10 @@ class SEO extends AbstractModel implements HasMedia
     public function seoable()
     {
         return $this->morphTo();
+    }
+
+    protected static function newFactory(): SEOFactory
+    {
+        return new SEOFactory();
     }
 }
