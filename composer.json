@@ -37,7 +37,8 @@
     },
     "autoload": {
         "psr-4": {
-            "AdminKit\\SEO\\": "src/"
+            "AdminKit\\SEO\\": "src/",
+            "AdminKit\\SEO\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
