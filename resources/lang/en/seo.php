@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'group_name' => 'SEO Settings',
+    'seo_settings' => 'SEO Settings',
+    'og_settings' => 'Open Graph Settings',
 
     'title' => 'Title',
     'description' => 'Description',
