@@ -2,8 +2,8 @@
 
 namespace AdminKit\SEO\Database\Factories;
 
-use AdminKit\SEO\Models\SEO;
 use AdminKit\Core\Facades\AdminKit;
+use AdminKit\SEO\Models\SEO;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class SEOFactory extends Factory
