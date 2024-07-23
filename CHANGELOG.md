@@ -2,6 +2,17 @@
 
 All notable changes to `admin-kit-seo` will be documented in this file.
 
+## v3.4.0 - 2024-07-23
+
+### What's Changed
+
+* chore(deps): bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/IBEC-BOX/admin-kit-seo/pull/12
+* chore(deps): bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/IBEC-BOX/admin-kit-seo/pull/13
+* feat: add Factory by @ast21 in https://github.com/IBEC-BOX/admin-kit-seo/pull/14
+* refactor: view by @ast21 in https://github.com/IBEC-BOX/admin-kit-seo/pull/15
+
+**Full Changelog**: https://github.com/IBEC-BOX/admin-kit-seo/compare/v3.3.0...v3.4.0
+
 ## v3.3.0 - 2024-07-05
 
 ### What's Changed
