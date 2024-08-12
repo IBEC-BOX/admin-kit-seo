@@ -44,6 +44,6 @@ class SEO extends AbstractModel implements HasMedia
 
     protected static function newFactory(): SEOFactory
     {
-        return new SEOFactory();
+        return new SEOFactory;
     }
 }
