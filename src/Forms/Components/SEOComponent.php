@@ -42,9 +42,7 @@ class SEOComponent
                     ->imageCropAspectRatio('16:9')
                     ->imageEditorAspectRatios(['1:1', '4:3', '16:9'])
                     ->columnSpan(2)
-                    ->imagePreviewHeight(250)
-                    ->optimize('webp')
-                    ->resize(30),
+                    ->imagePreviewHeight(250),
                 TranslatableTabs::make(fn ($locale) => [
                     TextInput::make("og_url.$locale")
                         ->label('OG '.__('admin-kit-seo::seo.url'))
