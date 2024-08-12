@@ -2,6 +2,14 @@
 
 All notable changes to `admin-kit-seo` will be documented in this file.
 
+## v3.5.0 - 2024-08-12
+
+### What's Changed
+
+* !feat: remove joshembling\image-optimizer by @ast21 in https://github.com/IBEC-BOX/admin-kit-seo/pull/16
+
+**Full Changelog**: https://github.com/IBEC-BOX/admin-kit-seo/compare/v3.4.0...v3.5.0
+
 ## v3.4.0 - 2024-07-23
 
 ### What's Changed
